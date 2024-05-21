@@ -1346,10 +1346,7 @@ section {
   color: #8795a4;
 }
 
-.contact .info .email,
-.contact .info .phone {
-  margin-top: 40px;
-}
+
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
