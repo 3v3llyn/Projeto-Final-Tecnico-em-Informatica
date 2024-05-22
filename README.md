@@ -1,12 +1,32 @@
-    Este repositório contém o código do projeto final da turma do curso Técnico em Informática do CETAM em 2024. Os créditos para o criador do Template se encontram no fim do READ ME.
+#introducao
 
------------------------------------------------------------------------
+<h1 align="center">INFORMAGEM</h1>
+<p align="center">A Relação da Tecnologia nos Meios de Aprendizagem e Retenção de Conhecimentos da turma do curso Técnico em Enfermagem no CETAM - Unidade Galiléia</p>
+<p align="center">Este repositório contém o código do projeto final da turma do curso Técnico em Informática do CETAM em 2024. Os créditos para o criador do Template se encontram no fim do README</p>
 
-NOME DO PROJETO:
 
-    INFORMAGEM (A Relação da Tecnologia nos Meios de Aprendizagem e Retenção de Conhecimentos da turma do curso Técnico em Enfermagem no CETAM - Unidade Galiléia).
 
------------------------------------------------------------------------
+<h1 align="center">
+    <a href="https://getbootstrap.com/">🔗 Bootstrap</a>
+</h1>
+<p align="center">🚀 Lib para construir interfaces do usuário com componentes reutilizáveis</p>
+
+#tabela-de-conteudo
+
+<p align="center">
+ <a href="#objetivo">Objetivo</a> •
+ <a href="#tabela-de-conteudo">Tabela de Conteúdo</a> • 
+ <a href="#tecnologias">Tecnologias</a> • 
+ <a href="#contribuicao">Contribuição</a> • 
+ <a href="#licenc-a">Licença</a> • 
+ <a href="#autor">Autor</a>
+</p>
+
+Status do Projeto
+
+<h4 align="center"> 
+	🚧  React Select 🚀 Em construção...  🚧
+</h4>
 
 NOME DOS COMPONENTES DA EQUIPE:
     Evellyn Castro
