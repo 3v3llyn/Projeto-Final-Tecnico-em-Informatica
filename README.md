@@ -1,5 +1,6 @@
 #introducao
-#testando 1, 2, 3...
+#faltando editar
+#utilizando o site do rocketseat: https://blog.rocketseat.com.br/como-fazer-um-bom-readme/
 
 <h1 align="center">INFORMAGEM</h1>
 <p align="center">A Relação da Tecnologia nos Meios de Aprendizagem e Retenção de Conhecimentos da turma do curso Técnico em Enfermagem no CETAM - Unidade Galiléia</p>
