@@ -10,172 +10,172 @@ let actualQuestion = 0;
 // perguntas
 const questions = [
   {
-    question: 'Qual é o objetivo principal de um relatório técnico?',
+    question: 'O que caracteriza a ética profissional?',
     answers: [
       {
-        answer: 'Entreter o leitor',
-        correct: false,
-      },
-      {
-        answer: 'Apresentar informações técnicas de forma clara e concisa',
+        answer: 'Um conjunto de princípios morais que guiam o comportamento no ambiente de trabalho',
         correct: true,
       },
       {
-        answer: 'Gerar controvérsia',
+        answer: 'Um conjunto de regras impostas por superiores',
+        correct: false,
+      },
+      {
+        answer: 'A busca pelo lucro a qualquer custo',
         correct: false,
       },
     ],
   },
   {
-    question: 'Quais são as principais seções de um relatório técnico?',
+    question: 'Por que é importante promover a diversidade no local de trabalho?',
     answers: [
       {
-        answer: 'Introdução, análise, conclusão',
+        answer: 'Para criar um ambiente monótono',
         correct: false,
       },
       {
-        answer: 'Introdução, metodologia, resumo e resultados',
+        answer: 'Para aumentar a competição entre os funcionários',
         correct: false,
       },
       {
-        answer: 'Introdução, metodologia, resultados, discussão e conclusão',
+        answer: 'Para obter diferentes perspectivas e experiências, promovendo a inovação e a criatividade',
         correct: true,
       },
     ],
   },
   {
-    question: 'Por que é essencial incluir referências bibliográficas em um relatório técnico?',
+    question: 'O que é assédio moral no ambiente de trabalho?',
     answers: [
       {
-        answer: 'Para dar crédito às fontes utilizadas e permitir que outros verifiquem a validade das informações',
-        correct: true,
-      },
-      {
-        answer: 'Para demonstrar a profundidade do conhecimento do autor',
+        answer: 'Uma forma de elogio constante aos colegas',
         correct: false,
       },
       {
-        answer: 'Para fazer o relatório parecer mais acadêmico',
+        answer: 'Um comportamento abusivo, humilhante ou intimidador que afeta negativamente a dignidade e integridade emocional dos trabalhadores',
+        correct: true,
+      },
+      {
+        answer: 'Uma estratégia de liderança eficaz',
         correct: false,
       },
     ],
   },
   {
-    question: 'O que diferencia um relatório técnico de um artigo científico?',
+    question: 'Qual é o papel das habilidades interpessoais no ambiente profissional?',
     answers: [
       {
-        answer: 'Um relatório técnico é mais focado em soluções para problemas práticos',
-        correct: true,
-      },
-      {
-        answer: 'O relatório técnico é mais curto que um artigo científico',
+        answer: 'Promover a competição entre os colegas',
         correct: false,
       },
       {
-        answer: 'Um artigo científico é mais focado em resultados experimentais',
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: 'Qual é a importância da revisão e edição em um relatório técnico?',
-    answers: [
-      {
-        answer: 'Reduzir a credibilidade do relatório',
+        answer: 'Hyperlink Text Transfer Protocol',
         correct: false,
       },
       {
-        answer: 'Garantir que o relatório seja o mais confuso possível',
-        correct: false,
-      },
-      {
-        answer: 'Garantir precisão, clareza e consistência nas informações apresentadas',
+        answer: 'Hypertext Transfer Protocol',
         correct: true,
       },
     ],
   },
   {
-    question: 'Quais são os benefícios de usar gráficos e tabelas em um relatório técnico?',
+    question: 'O que é um "firewall" em relação à segurança da informação?',
     answers: [
       {
-        answer: 'Tornar o relatório mais confuso',
+        answer: 'Um tipo de software de edição de imagens',
         correct: false,
       },
       {
-        answer: 'Facilitar a visualização e compreensão dos dados',
+        answer: 'Uma medida de segurança de rede',
         correct: true,
       },
       {
-        answer: 'Aumentar o tamanho do relatório desnecessariamente',
+        answer: 'Um tipo de hardware de armazenamento',
         correct: false,
       },
     ],
   },
   {
-    question: 'Quando é apropriado usar linguagem técnica em um relatório técnico?',
+    question: 'Qual dos seguintes NÃO é um tipo de armazenamento de dados?',
     answers: [
       {
-        answer: 'Nunca',
+        answer: 'Disco rígido (Hard Disk Drive - HDD)',
         correct: false,
       },
       {
-        answer: 'Somente em raras ocasiões',
+        answer: 'Memória ROM (Read-Only Memory)',
         correct: false,
       },
       {
-        answer: 'Quando se comunica com um público que compreende os termos específicos da área em questão',
+        answer: 'Processador (CPU)',
         correct: true,
       },
     ],
   },
   {
-    question: 'Quais são os passos para elaborar uma boa conclusão em um relatório técnico?',
+    question: 'O que é um "spam" em relação ao correio eletrônico?',
     answers: [
       {
-        answer: 'Recapitular os resultados, discutir implicações e recomendações para futuras ações',
+        answer: 'Um tipo de mensagem indesejada',
         correct: true,
       },
       {
-        answer: 'Recapitular os resultados e encerrar o relatório abruptamente',
+        answer: 'Um tipo de vírus',
         correct: false,
       },
       {
-        answer: 'Não fornecer conclusão alguma',
+        answer: 'Um tipo de protocolo de segurança',
         correct: false,
       },
     ],
   },
   {
-    question: 'Por que é importante considerar o público-alvo ao escrever um relatório técnico?',
+    question: 'Qual é a função principal de um navegador da web?',
     answers: [
       {
-        answer: 'Para aumentar o número de termos técnicos utilizados',
+        answer: 'Criar apresentações de slides',
         correct: false,
       },
       {
-        answer: 'Para tornar o relatório mais longo',
-        correct: false,
-      },
-      {
-        answer: 'Para adaptar o nível de detalhe, a linguagem e o estilo de escrita às necessidades e conhecimento do público',
+        answer: 'Navegar na Internet e exibir páginas da web',
         correct: true,
+      },
+      {
+        answer: 'Reproduzir vídeos e imagens',
+        correct: false,
       },
     ],
   },
   {
-    question: 'Qual é o propósito da seção de metodologia em um relatório técnico?',
+    question: 'O que é a "nuvem" (cloud computing) em computação?',
     answers: [
       {
-        answer: 'Descrever detalhadamente os métodos e técnicas utilizados no estudo ou pesquisa',
+        answer: 'Um modelo de computação que permite acesso remoto a recursos de computação e armazenamento',
         correct: true,
       },
       {
-        answer: 'Discutir os resultados obtidos com as práticas',
+        answer: 'Um tipo de software que pode ser instalado em computadores e celulares',
         correct: false,
       },
       {
-        answer: 'Apresentar o conteúdo do relatório técnico ao leitor',
+        answer: 'Um modelo de computação que permite apenas o acesso remoto a recursos de armazenamento',
         correct: false,
+      },
+    ],
+  },
+  {
+    question: 'Qual dos seguintes NÃO é um tipo de arquivo de imagem comum?',
+    answers: [
+      {
+        answer: '.GIF',
+        correct: false,
+      },
+      {
+        answer: '.JPEG',
+        correct: false,
+      },
+      {
+        answer: '.PDF',
+        correct: true,
       },
     ],
   },
