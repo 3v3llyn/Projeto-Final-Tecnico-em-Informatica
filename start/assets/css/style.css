@@ -138,6 +138,13 @@ h6 {
   transition: 0.3s;
 }
 
+.navbar22 a:hover,
+.navbar22 .active,
+.navbar22 .active:focus,
+.navbar22 li:hover>a {
+  color: #969c59;
+}
+
 .navbar a i,
 .navbar a:focus i {
   font-size: 12px;
