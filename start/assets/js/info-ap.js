@@ -34,12 +34,12 @@ const questions = [
         correct: false,
       },
       {
-        answer: 'Microsoft Excel',
-        correct: true,
-      },
-      {
         answer: 'Microsoft PowerPoint',
         correct: false,
+      },
+      {
+        answer: 'Microsoft Excel',
+        correct: true,
       },
     ],
   },
@@ -157,7 +157,7 @@ const questions = [
         correct: false,
       },
       {
-        answer: 'Um modelo de computação que permite apenas o acesso remoto a recursos de armazenamento',
+        answer: 'Uma rede social popular',
         correct: false,
       },
     ],

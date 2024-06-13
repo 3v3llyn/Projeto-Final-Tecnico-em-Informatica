@@ -68,113 +68,113 @@ const questions = [
         correct: false,
       },
       {
-        answer: 'Hyperlink Text Transfer Protocol',
+        answer: 'Ignorar as diferenças entre os colegas',
         correct: false,
       },
       {
-        answer: 'Hypertext Transfer Protocol',
+        answer: 'Facilitar a comunicação, a colaboração e o relacionamento positivo entre os membros da equipe',
         correct: true,
       },
     ],
   },
   {
-    question: 'O que é um "firewall" em relação à segurança da informação?',
+    question: 'Por que a pontualidade é valorizada no ambiente de trabalho?',
     answers: [
       {
-        answer: 'Um tipo de software de edição de imagens',
-        correct: false,
-      },
-      {
-        answer: 'Uma medida de segurança de rede',
+        answer: 'Porque demonstra respeito pelo tempo dos outros e contribui para a eficiência e produtividade',
         correct: true,
       },
       {
-        answer: 'Um tipo de hardware de armazenamento',
+        answer: 'Porque permite aos funcionários sair mais cedo',
+        correct: false,
+      },
+      {
+        answer: 'Porque é uma prática ultrapassada',
         correct: false,
       },
     ],
   },
   {
-    question: 'Qual dos seguintes NÃO é um tipo de armazenamento de dados?',
+    question: 'O que é ética corporativa?',
     answers: [
       {
-        answer: 'Disco rígido (Hard Disk Drive - HDD)',
+        answer: 'Um conjunto de normas de conduta pessoal',
         correct: false,
       },
       {
-        answer: 'Memória ROM (Read-Only Memory)',
+        answer: 'A ausência de regras no ambiente de trabalho',
         correct: false,
       },
       {
-        answer: 'Processador (CPU)',
+        answer: 'Um código de conduta estabelecido por uma empresa para orientar o comportamento dos funcionários',
         correct: true,
       },
     ],
   },
   {
-    question: 'O que é um "spam" em relação ao correio eletrônico?',
+    question: 'Qual é a importância do respeito no ambiente profissional?',
     answers: [
       {
-        answer: 'Um tipo de mensagem indesejada',
+        answer: 'Promove um ambiente de trabalho harmonioso, onde as diferenças são valorizadas e os colegas são tratados com dignidade',
         correct: true,
       },
       {
-        answer: 'Um tipo de vírus',
+        answer: 'Não tem importância',
         correct: false,
       },
       {
-        answer: 'Um tipo de protocolo de segurança',
+        answer: 'Cria um ambiente competitivo entre os colegas',
         correct: false,
       },
     ],
   },
   {
-    question: 'Qual é a função principal de um navegador da web?',
+    question: 'Por que é crucial manter a confidencialidade das informações no local de trabalho?',
     answers: [
       {
-        answer: 'Criar apresentações de slides',
+        answer: 'Para fofocar sobre os colegas',
         correct: false,
       },
       {
-        answer: 'Navegar na Internet e exibir páginas da web',
+        answer: 'Para proteger a privacidade dos funcionários e a segurança das informações sensíveis da empresa',
         correct: true,
       },
       {
-        answer: 'Reproduzir vídeos e imagens',
+        answer: 'Para aumentar a transparência na organização',
         correct: false,
       },
     ],
   },
   {
-    question: 'O que é a "nuvem" (cloud computing) em computação?',
+    question: 'O que é cultura organizacional?',
     answers: [
       {
-        answer: 'Um modelo de computação que permite acesso remoto a recursos de computação e armazenamento',
+        answer: 'A cultura de um país',
+        correct: false,
+      },
+      {
+        answer: 'O conjunto de normas de conduta estabelecido pelos funcionários',
+        correct: false,
+      },
+      {
+        answer: 'O conjunto de valores, crenças, comportamentos e práticas compartilhadas dentro de uma organização',
         correct: true,
-      },
-      {
-        answer: 'Um tipo de software que pode ser instalado em computadores e celulares',
-        correct: false,
-      },
-      {
-        answer: 'Um modelo de computação que permite apenas o acesso remoto a recursos de armazenamento',
-        correct: false,
       },
     ],
   },
   {
-    question: 'Qual dos seguintes NÃO é um tipo de arquivo de imagem comum?',
+    question: 'Qual é a importância da comunicação eficaz no ambiente de trabalho?',
     answers: [
       {
-        answer: '.GIF',
+        answer: 'Para aumentar a competição entre os funcionários',
         correct: false,
       },
       {
-        answer: '.JPEG',
+        answer: 'Para manter os colegas desinformados',
         correct: false,
       },
       {
-        answer: '.PDF',
+        answer: 'Para evitar conflitos e mal-entendidos, promover a colaboração e a eficiência',
         correct: true,
       },
     ],
