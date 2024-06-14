@@ -10,86 +10,86 @@ let actualQuestion = 0;
 // perguntas
 const questions = [
   {
-    question: 'O que é a farmacologia?',
+    question: 'Questão: Qual é o nome da estrutura anatômica que conecta o músculo ao osso?',
     answers: [
       {
-        answer: 'Estudo dos processos biológicos',
-        correct: false,
-      },
-      {
-        answer: 'Estudo dos efeitos dos medicamentos no organismo',
+        answer: 'Tendão',
         correct: true,
       },
       {
-        answer: 'Estudo das técnicas de diagnóstico médico',
+        answer: 'Ligamento',
+        correct: false,
+      },
+      {
+        answer: 'Cartilagem',
         correct: false,
       },
     ],
   },
   {
-    question: 'Qual é o principal objetivo da farmacologia clínica?',
+    question: 'Qual é o nome do processo anatômico encontrado na escápula?',
     answers: [
       {
-        answer: 'Desenvolver novos medicamentos',
+        answer: 'Espinha ilíaca',
         correct: false,
       },
       {
-        answer: 'Estudar os efeitos colaterais dos medicamentos',
+        answer: 'Processo estilóide',
         correct: false,
       },
       {
-        answer: 'Estudar a segurança e eficácia dos medicamentos em pacientes',
+        answer: 'Processo acromial',
         correct: true,
       },
     ],
   },
   {
-    question: 'O que é um fármaco?',
+    question: 'Qual dos seguintes não é um osso do carpo?',
     answers: [
       {
-        answer: 'Um medicamento',
+        answer: 'Cubóide',
         correct: true,
       },
       {
-        answer: 'Uma substância usada para diagnóstico médico',
+        answer: 'Escafóide',
         correct: false,
       },
       {
-        answer: 'Um dispositivo médico',
+        answer: 'Trapezóide',
         correct: false,
       },
     ],
   },
   {
-    question: 'O que é a farmacocinética de um medicamento?',
+    question: 'Qual é o nome da estrutura anatômica que conecta a faringe à traquéia?',
     answers: [
       {
-        answer: 'Estudo dos efeitos colaterais',
+        answer: 'Laringe',
         correct: false,
       },
       {
-        answer: 'Estudo da interação entre medicamentos',
-        correct: false,
-      },
-      {
-        answer: 'Estudo dos processos de absorção, distribuição, metabolismo e excreção de um medicamento no organismo',
+        answer: 'Esôfago',
         correct: true,
+      },
+      {
+        answer: 'Epiglote',
+        correct: false,
       },
     ],
   },
   {
-    question: 'O que são medicamentos de venda livre (OTC)?',
+    question: 'Qual é a função principal do sistema cardiovascular?',
     answers: [
       {
-        answer: 'Medicamentos exclusivos para uso hospitalar',
+        answer: 'Produção de hormônios.',
         correct: false,
       },
       {
-        answer: 'Medicamentos que podem ser adquiridos sem prescrição médica',
+        answer: 'Transporte de nutrientes e oxigênio para as células',
         correct: true,
       },
       {
-        answer: 'Medicamentos que exigem prescrição médica',
+        answer: 'Controle do equilíbrio ácido-base',
         correct: false,
       },
     ],
