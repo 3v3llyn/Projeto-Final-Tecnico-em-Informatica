@@ -27,35 +27,35 @@ const questions = [
     ],
   },
   {
-    question: 'Qual é o nome do processo anatômico encontrado na escápula?',
+    question: 'Onde ocorre a absorção primária de nutrientes no sistema digestivo?',
     answers: [
       {
-        answer: 'Espinha ilíaca',
+        answer: 'Estômago',
         correct: false,
       },
       {
-        answer: 'Processo estilóide',
+        answer: 'Intestino grosso',
         correct: false,
       },
       {
-        answer: 'Processo acromial',
+        answer: 'Intestino delgado',
         correct: true,
       },
     ],
   },
   {
-    question: 'Qual dos seguintes não é um osso do carpo?',
+    question: 'Onde são produzidos os glóbulos vermelhos?',
     answers: [
       {
-        answer: 'Cubóide',
+        answer: 'Medula óssea',
         correct: true,
       },
       {
-        answer: 'Escafóide',
+        answer: 'Fígado',
         correct: false,
       },
       {
-        answer: 'Trapezóide',
+        answer: 'Baço',
         correct: false,
       },
     ],
@@ -95,86 +95,86 @@ const questions = [
     ],
   },
   {
-    question: 'O que é um medicamento genérico?',
+    question: 'Onde estão localizados os rins no corpo humano?',
     answers: [
       {
-        answer: 'Um medicamento que não possui marca registrada',
-        correct: true,
-      },
-      {
-        answer: 'Um medicamento que contém apenas ingredientes naturais',
+        answer: 'No abdômen, abaixo do diafragma',
         correct: false,
       },
       {
-        answer: 'Um medicamento com um nome comercial exclusivo',
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: 'O que é a posologia de um medicamento?',
-    answers: [
-      {
-        answer: 'Estudo dos efeitos terapêuticos',
+        answer: 'Na cavidade torácica, atrás dos pulmões',
         correct: false,
       },
       {
-        answer: 'Dosagem recomendada e intervalo entre as doses de um medicamento',
-        correct: true,
-      },
-      {
-        answer: 'Estudo dos efeitos colaterais de um medicamento',
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: 'O que são interações medicamentosas?',
-    answers: [
-      {
-        answer: 'Reações alérgicas a um medicamento',
-        correct: false,
-      },
-      {
-        answer: 'Efeitos secundários de um medicamento',
-        correct: false,
-      },
-      {
-        answer: 'Efeitos que ocorrem quando dois ou mais medicamentos são administrados simultaneamente',
+        answer: 'No abdômen, ao lado da coluna vertebral',
         correct: true,
       },
     ],
   },
   {
-    question: 'Qual é a via de administração de um medicamento que envolve a introdução do medicamento diretamente no músculo?',
+    question: 'Qual é a função principal do sistema nervoso autônomo?',
     answers: [
       {
-        answer: 'Intravenosa',
+        answer: 'Controlar os movimentos voluntários do corpo',
         correct: false,
       },
       {
-        answer: 'Intramuscular',
+        answer: 'Regular funções involuntárias, como respiração e frequência cardíaca',
         correct: true,
       },
       {
-        answer: 'Subcutânea',
+        answer: 'Transmitir informações sensoriais ao cérebro',
         correct: false,
       },
     ],
   },
   {
-    question: 'O que é uma reação adversa a um medicamento?',
+    question: 'O que é a diabetes mellitus tipo 2?',
     answers: [
       {
-        answer: 'Uma reação que ocorre em doses terapêuticas e não é desejada',
-        correct: true,
-      },
-      {
-        answer: 'Uma reação terapêutica desejada',
+        answer: 'Uma condição na qual o corpo não produz insulina suficiente',
         correct: false,
       },
       {
-        answer: 'Uma reação alérgica',
+        answer: 'Uma condição na qual o corpo não responde adequadamente à insulina',
+        correct: true,
+      },
+      {
+        answer: 'Uma condição na qual o corpo produz insulina em excesso',
+        correct: false,
+      },
+    ],
+  },
+  {
+    question: 'Onde estão localizados os principais órgãos do sistema respiratório?',
+    answers: [
+      {
+        answer: 'No abdômen',
+        correct: false,
+      },
+      {
+        answer: 'Na cabeça',
+        correct: false,
+      },
+      {
+        answer: 'No tórax',
+        correct: true,
+      },
+    ],
+  },
+  {
+    question: 'Qual é a função principal do sistema respiratório humano?',
+    answers: [
+      {
+        answer: 'Troca de gases',
+        correct: true,
+      },
+      {
+        answer: 'Produção de hormônios',
+        correct: false,
+      },
+      {
+        answer: 'Transporte de nutrientes',
         correct: false,
       },
     ],
