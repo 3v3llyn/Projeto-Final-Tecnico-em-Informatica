@@ -10,172 +10,87 @@ let actualQuestion = 0;
 // perguntas
 const questions = [
   {
-    question: 'Qual é o principal método de transmissão de doenças causadas por vírus?',
+    question: 'Qual pioneira da enfermagem era conhecida como a "Anjo da Crimeia" por seu trabalho durante a guerra?',
     answers: [
       {
-        answer: 'Picada de mosquito',
-        correct: false,
-      },
-      {
-        answer: 'Contato direto',
+        answer: 'Florence Nightingale',
         correct: true,
       },
       {
-        answer: 'Ingestão de alimentos contaminados',
+        answer: 'Clara Barton',
+        correct: false,
+      },
+      {
+        answer: 'Dorothea Dix',
         correct: false,
       },
     ],
   },
   {
-    question: 'O que são parasitas endoparasitas?',
+    question: 'Quantos tipos de especialidades em enfermagem existem no Brasil?',
     answers: [
       {
-        answer: 'Parasitas que vivem na superfície do hospedeiro',
+        answer: 'Mais de 20',
         correct: false,
       },
       {
-        answer: 'Parasitas que se alimentam de células do hospedeiro',
-        correct: false,
-      },
-      {
-        answer: 'Parasitas que vivem dentro do hospedeiro',
-        correct: true,
-      },
-    ],
-  },
-  {
-    question: 'O que são anticorpos?',
-    answers: [
-      {
-        answer: 'Proteínas produzidas por vírus',
-        correct: false,
-      },
-      {
-        answer: 'Proteínas que atacam células do corpo',
-        correct: false,
-      },
-      {
-        answer: 'Proteínas produzidas pelo sistema imunológico em resposta a antígenos',
-        correct: true,
-      },
-    ],
-  },
-  {
-    question: 'Qual é o principal mecanismo de defesa do corpo contra infecções bacterianas?',
-    answers: [
-      {
-        answer: 'Fagocitose',
+        answer: 'Mais de 50',
         correct: true,
       },
       {
-        answer: 'Produção de toxinas',
-        correct: false,
-      },
-      {
-        answer: 'Liberação de anticorpos',
+        answer: 'Mais de 100',
         correct: false,
       },
     ],
   },
   {
-    question: 'Qual é o agente causador da malária?',
+    question: 'Qual o símbolo da enfermagem que representa cura e proteção?',
     answers: [
       {
-        answer: 'Protozoário',
-        correct: true,
-      },
-      {
-        answer: 'Vírus',
+        answer: 'Cruz Vermelha',
         correct: false,
       },
       {
-        answer: 'Bactéria',
+        answer: 'Cobra enrolada em um bastão',
+        correct: true,
+      },
+      {
+        answer: 'Âncora',
         correct: false,
       },
     ],
   },
   {
-    question: 'O que são antibióticos?',
+    question: 'Qual é a origem do termo "enfermeiro"?',
     answers: [
       {
-        answer: 'Medicamentos que combatem parasitas',
+        answer: 'Vem do latim "enfermus", que significa "doente"',
         correct: false,
       },
       {
-        answer: 'Medicamentos que combatem vírus',
+        answer: 'Deriva do grego antigo "iatrikos", que significa "curador"',
         correct: false,
       },
       {
-        answer: 'Medicamentos que combatem bactérias',
+        answer: 'Tem suas raízes no francês antigo "enfermier", que significa "aquele que cuida dos doentes"',
         correct: true,
       },
     ],
   },
   {
-    question: 'O que é a vacinação?',
+    question: 'Qual é o significado da cor verde utilizada nos uniformes de enfermagem?',
     answers: [
       {
-        answer: 'Introdução de microrganismos vivos no corpo',
-        correct: false,
-      },
-      {
-        answer: 'Introdução de antígenos no corpo para estimular resposta imune',
+        answer: 'Representa a esperança e a cura',
         correct: true,
       },
       {
-        answer: 'Remoção de anticorpos do corpo',
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: 'Quais são as principais vias de transmissão de parasitas intestinais?',
-    answers: [
-      {
-        answer: 'Contato com a pele',
+        answer: 'Simboliza a tranquilidade e a serenidade',
         correct: false,
       },
       {
-        answer: 'Ingestão de alimentos contaminados',
-        correct: true,
-      },
-      {
-        answer: 'Inalação de esporos',
+        answer: 'Reflete a vitalidade e o vigor',
         correct: false,
-      },
-    ],
-  },
-  {
-    question: 'O que é imunidade passiva?',
-    answers: [
-      {
-        answer: 'Transferência de anticorpos de uma pessoa para outra',
-        correct: true,
-      },
-      {
-        answer: 'Imunização através da exposição a antígenos inativados',
-        correct: false,
-      },
-      {
-        answer: 'Estímulo direto à produção de células T',
-        correct: false,
-      },
-    ],
-  },
-  {
-    question: 'Quais são as características principais dos vírus?',
-    answers: [
-      {
-        answer: 'Organismos unicelulares com núcleo verdadeiro',
-        correct: false,
-      },
-      {
-        answer: 'Protozoários que causam doenças no ser humano',
-        correct: false,
-      },
-      {
-        answer: 'Partículas infecciosas que dependem de células hospedeiras para reprodução',
-        correct: true,
       },
     ],
   },
