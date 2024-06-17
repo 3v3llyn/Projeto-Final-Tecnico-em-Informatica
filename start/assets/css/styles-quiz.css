@@ -84,6 +84,7 @@ footer {
   padding: 25px;
   border: 1px solid #e0e0e0;
   box-shadow: 7px 10px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
 }
 
 #quizz-container,
@@ -122,6 +123,21 @@ footer {
   margin-top: 20px;
   cursor: pointer;
   transition: 0.5s;
+  border-radius: 5px;
+}
+
+#restart2 {
+  background-color: #837422;
+  color: #fff;
+  font-weight: bold;
+  height: 40px;
+  border: 1px solid #e0e0e0;
+  width: 100px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 5px;
 }
 
 #restart:hover {
@@ -148,6 +164,7 @@ footer {
   color: #222222;
   cursor: pointer;
   transition: 0.5s;
+  border-radius: 5px;
 }
 
 #answers-box button:hover {
@@ -168,6 +185,8 @@ footer {
   flex: 1 1 0;
   padding: 5px;
   max-width: 45px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 .question-answer {
@@ -177,6 +196,7 @@ footer {
   align-items: center;
   margin-left: 10px;
   font-size: 16px;
+  padding-right: 6px;
 }
 
 #quizz-container .wrong-answer,
